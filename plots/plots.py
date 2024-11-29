@@ -147,7 +147,7 @@ def collect_algorithm_data(algorithm):
 
     return success_counts
 
-def plot_comparison(algorithms, markers, colors):
+def pathfound_comparison_plot(algorithms, markers, colors):
     """
     Create comparison plot for all algorithms
     """
@@ -179,18 +179,32 @@ def plot_comparison(algorithms, markers, colors):
     plt.tight_layout()
 
 
-    plt.savefig('plots/algorithm_comparison.png')
+    plt.savefig('plots/pathfound_comparison.png')
     plt.show()
 
 
-def main():
+def main(plot):
+    if plot=='pathfound':
+        algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent', 'random_agent']
+        markers = ['o', 's', 'D', 'x']  
+        colors = ['#2ecc71', '#e74c3c', '#3498db','black']  # green, red, blue, black
 
-    algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent', 'random_agent']
-    markers = ['o', 's', 'D', 'x']  
-    colors = ['#2ecc71', '#e74c3c', '#3498db','black']  # green, red, blue, black
-
-    #plot_comparison(algorithms, markers, colors)
+        pathfound_comparison_plot(algorithms, markers, colors)
+    elif plot=='cost':
+        algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
+        markers = ['o', 's', '+']  
+        colors = ['#2ecc71', '#e74c3c', '#3498db']
+        
+        cost_comparison_plot(algorithms, markers, colors)
+    elif plot=='nodes':
+        algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
+        markers = ['o', 's', '+']  
+        colors = ['#2ecc71', '#e74c3c', '#3498db']
+        
+        nodes_comparison_plot(algorithms, markers, colors)
     
 
 if __name__ == "__main__":
-    main()
+    main('pathfound')
+    #main('cost')
+    #main('nodes')
