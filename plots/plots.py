@@ -87,10 +87,11 @@ def cost_comparison_plot(algorithms, markers, colors):
 
         # mark labels on top of the lines
         for x, y in zip(difficulties, avg_costs):
-            offset = 1
-            while any(abs(overlap_value - (y+offset)) < 2 for overlap_value in overlap_value_dict.get(x, [])):
-                offset += 2
-            plt.text(x, y + offset, f"{y:.2f}", ha='right', va='bottom', fontsize=8.5)
+            offset = 0.75
+            while any(abs(overlap_value - (y+offset)) < 1.5 for overlap_value in overlap_value_dict.get(x, [])):
+                offset += 1.5
+            plt.text(x, y + offset, f"{y:.2f}", ha='right',
+                     va='bottom', fontsize=9, color=color, fontweight='bold')
             
             if x not in overlap_value_dict:
                 overlap_value_dict[x] = []
@@ -98,14 +99,14 @@ def cost_comparison_plot(algorithms, markers, colors):
 
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Average Total Cost', fontsize=12)
-    plt.title('Average Total Cost over 100 runs', fontsize=14)
+    plt.title('Average Total Cost over 100 runs',pad=15, fontsize=14)
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=10)
     plt.xticks(difficulties)
 
 
     plt.tight_layout()
-    #plt.subplots_adjust(right=0.85)
+    #plt.subplots_adjust(top=0.85)
     plt.savefig('plots/algorithm_cost_comparison.png')
     plt.show()
 
@@ -201,7 +202,7 @@ def main(plot):
     elif plot=='cost':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
         markers = ['o', 's', 'D']  
-        colors = ['#2ecc71', '#e74c3c', '#3498db']
+        colors = ['green', 'red', '#6a65f7']
         
         cost_comparison_plot(algorithms, markers, colors)
     elif plot=='nodes':
