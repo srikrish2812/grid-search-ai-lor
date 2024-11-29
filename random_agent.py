@@ -1,15 +1,6 @@
 import random
 
 class RandomAgent:
-    """Agent that selects random moves for the games."""
-    @classmethod
-    def select_move_2048(cls):
-        """Returns a random valid move direction for the 2048 game.
-        
-        Returns:
-            str: One of 'up', 'down', 'left', or 'right'
-        """
-        return random.choice(['up', 'down', 'left', 'right'])
     
     @classmethod
     def select_action_grid(cls, grid, current_position):
@@ -36,29 +27,36 @@ class RandomAgent:
         if valid_moves:
             return random.choice(valid_moves)# randomly select a valid move
         return current_position
+    # """Agent that selects random moves for the games."""
+    # @classmethod
+    # def select_move_2048(cls):
+    #     """Returns a random valid move direction for the 2048 game.
         
+    #     Returns:
+    #         str: One of 'up', 'down', 'left', or 'right'
+    #     """
+    #     return random.choice(['up', 'down', 'left', 'right'])
+
+    # @classmethod
+    # def select_move_puzzle8(cls):
+    #     """Returns a random valid move direction for the 8-puzzle game.
         
+    #     Returns:
+    #         str: One of 'up', 'down', 'left', or 'right'
+    #     """
+    #     return random.choice(['up', 'down', 'left', 'right'])
     
-    @classmethod
-    def select_move_puzzle8(cls):
-        """Returns a random valid move direction for the 8-puzzle game.
+    # @classmethod
+    # def select_action_sentence_transform(cls, sentence_length, vocabulary):
+    #     """Returns a random valid action for the sentence transformation problem.
         
-        Returns:
-            str: One of 'up', 'down', 'left', or 'right'
-        """
-        return random.choice(['up', 'down', 'left', 'right'])
-    
-    @classmethod
-    def select_action_sentence_transform(cls, sentence_length, vocabulary):
-        """Returns a random valid action for the sentence transformation problem.
-        
-        Returns:
-            str: One of 'edit', 'add', or 'delete'
-        """
-        action = random.choice(['edit', 'add', 'delete'])
-        index = random.randint(0, sentence_length - 1)
-        if action != "delete":
-            word = random.choice(vocabulary)
-        else:
-            word = None
-        return action, index, word
+    #     Returns:
+    #         str: One of 'edit', 'add', or 'delete'
+    #     """
+    #     action = random.choice(['edit', 'add', 'delete'])
+    #     index = random.randint(0, sentence_length - 1)
+    #     if action != "delete":
+    #         word = random.choice(vocabulary)
+    #     else:
+    #         word = None
+    #     return action, index, word
