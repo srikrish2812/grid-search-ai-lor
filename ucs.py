@@ -13,7 +13,7 @@ class UCSAgentGrid:
     def __init__(self):
         """Initializing with necessary data structures."""
         # priority queue to store nodes to be expanded
-        self.frontier = []
+        self.frontier = [] # priority queue to store nodes to be expanded
         self.visited = set()  # set to track visited nodes
         self.nodes_expanded = 0  # counts the number of nodes expanded
         self.track_path_dict = {}  # dictionary to track the path to the goal

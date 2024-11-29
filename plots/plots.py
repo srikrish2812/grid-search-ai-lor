@@ -61,8 +61,8 @@ def cost_nodes_data(algorithm):
 
     for diff in difficulties:
         avg_cost, avg_nodes = load_more_data(diff, algorithm)
-        avg_costs.append(avg_cost)
-        avg_nodes_expanded.append(avg_nodes)
+        avg_costs.append(round(avg_cost,2))
+        avg_nodes_expanded.append(round(avg_nodes,2))
 
     return avg_costs, avg_nodes_expanded
 
@@ -89,7 +89,7 @@ def cost_comparison_plot(algorithms, markers, colors):
 
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Average Total Cost', fontsize=12)
-    plt.title('Average Total Cost vs Difficulty Level by Algorithm', fontsize=14)
+    plt.title('Average Total Cost over 100 runs', fontsize=14)
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=10)
     plt.xticks(difficulties)
@@ -124,7 +124,7 @@ def nodes_comparison_plot(algorithms, markers, colors):
     
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Average Nodes Expanded', fontsize=12)
-    plt.title('Average Nodes Expanded vs Difficulty Level by Algorithm', fontsize=14)
+    plt.title('Average Nodes Expanded over 100 runs', fontsize=14)
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=10)
     plt.xticks(difficulties)
@@ -170,7 +170,7 @@ def pathfound_comparison_plot(algorithms, markers, colors):
 
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Number of Successful Paths Found', fontsize=12)
-    plt.title('Path Finding Success vs Difficulty Level by Algorithm', fontsize=14)
+    plt.title('Path Finding Success over 100 runs', fontsize=14)
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=10)
     plt.xticks(difficulties)
@@ -192,19 +192,19 @@ def main(plot):
         pathfound_comparison_plot(algorithms, markers, colors)
     elif plot=='cost':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
-        markers = ['o', 's', '+']  
+        markers = ['o', 's', 'D']  
         colors = ['#2ecc71', '#e74c3c', '#3498db']
         
         cost_comparison_plot(algorithms, markers, colors)
     elif plot=='nodes':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
-        markers = ['o', 's', '+']  
+        markers = ['o', 's', 'D']  
         colors = ['#2ecc71', '#e74c3c', '#3498db']
         
         nodes_comparison_plot(algorithms, markers, colors)
     
 
 if __name__ == "__main__":
-    main('pathfound')
-    #main('cost')
+    #main('pathfound')
+    main('cost')
     #main('nodes')
