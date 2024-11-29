@@ -62,7 +62,7 @@ def cost_nodes_data(algorithm):
     for diff in difficulties:
         avg_cost, avg_nodes = load_more_data(diff, algorithm)
         avg_costs.append(round(avg_cost,2))
-        avg_nodes_expanded.append(round(avg_nodes,2))
+        avg_nodes_expanded.append(int(avg_nodes))
 
     return avg_costs, avg_nodes_expanded
 
@@ -73,8 +73,6 @@ def cost_comparison_plot(algorithms, markers, colors):
     difficulties = list(range(0, 91, 10))
     plt.figure(figsize=(12, 8))
     
-    overlap_value_dict = {}
-    
     for algorithm, marker, color in zip(algorithms, markers, colors):
         avg_costs,_= cost_nodes_data(algorithm)
         plt.plot(difficulties, avg_costs, 
@@ -83,9 +81,10 @@ def cost_comparison_plot(algorithms, markers, colors):
                 linewidth=2, 
                 label=algorithm,
                 color=color,
-                markersize=8)
+                markersize=7)
 
         # mark labels on top of the lines
+        overlap_value_dict = {}
         for x, y in zip(difficulties, avg_costs):
             offset = 0.75
             while any(abs(overlap_value - (y+offset)) < 1.5 for overlap_value in overlap_value_dict.get(x, [])):
@@ -125,11 +124,14 @@ def nodes_comparison_plot(algorithms, markers, colors):
                 linewidth=2, 
                 label=algorithm,
                 color=color,
-                markersize=8)
+                markersize=6)
 
         # mark labels on top of the lines
+        overlap_value_dict = {}
         for x, y in zip(difficulties, avg_nodes_expanded):
-            plt.text(x, y + 1, str(y), ha='center', va='bottom')
+            plt.text(x, y + 2, f"{y}", ha='center',
+                        va='bottom', fontsize=9, color='black', fontweight='semibold')
+
     
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Average Nodes Expanded', fontsize=12)
@@ -215,5 +217,5 @@ def main(plot):
 
 if __name__ == "__main__":
     #main('pathfound')
-    main('cost')
-    #main('nodes')
+    #main('cost')
+    main('nodes')
