@@ -375,8 +375,12 @@ def run_experiments_random():
 
 if __name__ == "__main__":
     try:
-        print("Starting Uniform Cost Search Agent experiments...")
-        results = run_experiments_ucs()
+        # print("Starting Random Agent experiments")
+        # results = run_experiments_random()
+        # print("Starting Uniform Cost Search Agent experiments")
+        # results = run_experiments_ucs()
+        print("Statring A Star Agent expeirments...")
+        results = run_experiments_astar()
         print("\nExperiments completed successfully!")
         print("Results have been saved to the 'results' folder")
     except Exception as e:
