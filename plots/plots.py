@@ -6,7 +6,8 @@ print(os.getcwd())
 
 def load_results(difficulty, algorithm):
     """
-    Load results for a specific difficulty and algorithm
+    Load results for a specific difficulty and algorithm,
+    returns: the number of successful paths found
     """
     if algorithm == 'random_agent':
         filename = f"results/random/{algorithm}_results_difficulty_{difficulty}.json"
@@ -30,6 +31,7 @@ def load_results(difficulty, algorithm):
 def load_more_data(difficulty, algorithm):
     """
     Load results for a specific difficulty and algorithm
+    returns: the average total cost and average nodes expanded
     """
     if algorithm == 'ucs_agent':
         filename = f"results/ucs/{algorithm}_results_difficulty_{difficulty}.json"
@@ -54,6 +56,7 @@ def load_more_data(difficulty, algorithm):
 def cost_nodes_data(algorithm):
     """
     Collect data for all difficulties for a specific algorithm
+    returns: the average total cost and average nodes expanded for each difficulty
     """
     difficulties = range(0, 91, 10)  # 0, 10, 20, ..., 90
     avg_costs = []
@@ -68,7 +71,7 @@ def cost_nodes_data(algorithm):
 
 def cost_comparison_plot(algorithms, markers, colors):
     """
-    Create comparison plot for all algorithms
+    Create cost comparison plot for the ucs, astar-euclidean and astar-octile algorithms
     """
     difficulties = list(range(0, 91, 10))
     plt.figure(figsize=(12, 8))
@@ -111,7 +114,7 @@ def cost_comparison_plot(algorithms, markers, colors):
 
 def nodes_comparison_plot(algorithms, markers, colors):
     """
-    Create nodes expanded comparison plot for all algorithms
+    Create nodes expanded comparison plot for ucs, astar-euclidean and astar-octile algorithms
     """
     difficulties = list(range(0, 91, 10))
     plt.figure(figsize=(12, 8))
@@ -148,6 +151,7 @@ def nodes_comparison_plot(algorithms, markers, colors):
 def collect_algorithm_data(algorithm):
     """
     Collect data for all difficulties for a specific algorithm
+    returns: the number of successful paths found for each difficulty
     """
     difficulties = range(0, 91, 10)  # 0, 10, 20, ..., 90
     success_counts = []
@@ -160,7 +164,7 @@ def collect_algorithm_data(algorithm):
 
 def pathfound_comparison_plot(algorithms, markers, colors):
     """
-    Create comparison plot for all algorithms
+    Create comparison plot for random, ucs, astar-euclidean and astar-octile algorithms
     """
     difficulties = list(range(0, 91, 10))
     plt.figure(figsize=(12, 8))
@@ -195,25 +199,24 @@ def pathfound_comparison_plot(algorithms, markers, colors):
 
 
 def main(plot):
+    # plot for number of successful paths found for each difficulty for each algorithm
     if plot=='pathfound':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent', 'random_agent']
         markers = ['o', 's', 'D', 'x']  
         colors = ['#2ecc71', '#e74c3c', '#3498db','black']  # green, red, blue, black
-
         pathfound_comparison_plot(algorithms, markers, colors)
+    # plot for average total cost for each difficulty for each algorithm    
     elif plot=='cost':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
         markers = ['o', 's', 'D']  
         colors = ['green', 'red', '#6a65f7']
-        
         cost_comparison_plot(algorithms, markers, colors)
+    # plot for average nodes expanded for each difficulty for each algorithm
     elif plot=='nodes':
         algorithms = ['astar_euclidean', 'astar_octile', 'ucs_agent']
         markers = ['o', 's', 'D']  
         colors = ['#2ecc71', '#e74c3c', '#3498db']
-        
         nodes_comparison_plot(algorithms, markers, colors)
-    
 
 if __name__ == "__main__":
     #main('pathfound')

@@ -207,7 +207,7 @@ def run_experiments_astar():
                         break
                     continue
                 
-                # Test A* agent with Euclidean distance heuristic
+                # testing A* agent with Euclidean distance heuristic
                 run_results_euclidean = test_astar_agent(grid, initial_node, goal_node, grid_size, "euclidean")
                 run_results_euclidean.update({
                     "run_number": successful_runs + 1,
@@ -215,7 +215,7 @@ def run_experiments_astar():
                 })
                 difficulty_results_euclidean.append(run_results_euclidean)
                 
-                # Test A* agent with Octile distance heuristic
+                # testing A* agent with Octile distance heuristic
                 run_results_octile = test_astar_agent(grid, initial_node, goal_node, grid_size, "octile")
                 run_results_octile.update({
                     "run_number": successful_runs + 1,
