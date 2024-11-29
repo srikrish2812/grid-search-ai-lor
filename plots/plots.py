@@ -72,7 +72,9 @@ def cost_comparison_plot(algorithms, markers, colors):
     """
     difficulties = list(range(0, 91, 10))
     plt.figure(figsize=(12, 8))
-
+    
+    overlap_value_dict = {}
+    
     for algorithm, marker, color in zip(algorithms, markers, colors):
         avg_costs,_= cost_nodes_data(algorithm)
         plt.plot(difficulties, avg_costs, 
@@ -85,7 +87,14 @@ def cost_comparison_plot(algorithms, markers, colors):
 
         # mark labels on top of the lines
         for x, y in zip(difficulties, avg_costs):
-            plt.text(x, y + 1, str(y), ha='center', va='bottom')
+            offset = 1
+            while any(abs(overlap_value - (y+offset)) < 2 for overlap_value in overlap_value_dict.get(x, [])):
+                offset += 2
+            plt.text(x, y + offset, f"{y:.2f}", ha='right', va='bottom', fontsize=8.5)
+            
+            if x not in overlap_value_dict:
+                overlap_value_dict[x] = []
+            overlap_value_dict[x].append(y+offset)
 
     plt.xlabel('Difficulty Level', fontsize=12)
     plt.ylabel('Average Total Cost', fontsize=12)
@@ -96,8 +105,7 @@ def cost_comparison_plot(algorithms, markers, colors):
 
 
     plt.tight_layout()
-
-
+    #plt.subplots_adjust(right=0.85)
     plt.savefig('plots/algorithm_cost_comparison.png')
     plt.show()
 
