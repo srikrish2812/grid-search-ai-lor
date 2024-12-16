@@ -1,0 +1,1013 @@
+{
+    "difficulty_10": {
+        "runs": [
+            {
+                "steps": 2048,
+                "runtime": 0.003513813018798828,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 1,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036585330963134766,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 2,
+                "difficulty": 10
+            },
+            {
+                "steps": 1985,
+                "runtime": 0.0034780502319335938,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 3,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003509044647216797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 4,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034668445587158203,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 5,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034799575805664062,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 6,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034580230712890625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 7,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035791397094726562,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 8,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034830570220947266,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 9,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003495931625366211,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 10,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.00344085693359375,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 11,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003453969955444336,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 12,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034580230712890625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 13,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034470558166503906,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 14,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035479068756103516,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 15,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036351680755615234,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 16,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034911632537841797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 17,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035920143127441406,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 18,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035719871520996094,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 19,
+                "difficulty": 10
+            },
+            {
+                "steps": 1744,
+                "runtime": 0.0029478073120117188,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 20,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034439563751220703,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 21,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034797191619873047,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 22,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003454923629760742,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 23,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035409927368164062,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 24,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034668445587158203,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 25,
+                "difficulty": 10
+            },
+            {
+                "steps": 727,
+                "runtime": 0.0012197494506835938,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 26,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003604888916015625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 27,
+                "difficulty": 10
+            },
+            {
+                "steps": 1488,
+                "runtime": 0.0025861263275146484,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 28,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003484010696411133,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 29,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035147666931152344,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 30,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003535032272338867,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 31,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035400390625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 32,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036530494689941406,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 33,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003528118133544922,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 34,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003459930419921875,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 35,
+                "difficulty": 10
+            },
+            {
+                "steps": 1325,
+                "runtime": 0.002229928970336914,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 36,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003772258758544922,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 37,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034890174865722656,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 38,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034377574920654297,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 39,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034499168395996094,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 40,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036177635192871094,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 41,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035598278045654297,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 42,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034732818603515625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 43,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003481149673461914,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 44,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003476381301879883,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 45,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003579854965209961,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 46,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035562515258789062,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 47,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003556966781616211,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 48,
+                "difficulty": 10
+            },
+            {
+                "steps": 1052,
+                "runtime": 0.0020012855529785156,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 49,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003467082977294922,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 50,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034728050231933594,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 51,
+                "difficulty": 10
+            },
+            {
+                "steps": 674,
+                "runtime": 0.0011339187622070312,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 52,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034742355346679688,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 53,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036077499389648438,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 54,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003566741943359375,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 55,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003676176071166992,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 56,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034890174865722656,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 57,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035970211029052734,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 58,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035660266876220703,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 59,
+                "difficulty": 10
+            },
+            {
+                "steps": 1318,
+                "runtime": 0.0022361278533935547,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 60,
+                "difficulty": 10
+            },
+            {
+                "steps": 922,
+                "runtime": 0.0015521049499511719,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 61,
+                "difficulty": 10
+            },
+            {
+                "steps": 1298,
+                "runtime": 0.0023260116577148438,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 62,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.00341796875,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 63,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034668445587158203,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 64,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034911632537841797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 65,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035109519958496094,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 66,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003489971160888672,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 67,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035810470581054688,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 68,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036678314208984375,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 69,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035011768341064453,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 70,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003576040267944336,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 71,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035829544067382812,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 72,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035009384155273438,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 73,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003718137741088867,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 74,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034911632537841797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 75,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035080909729003906,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 76,
+                "difficulty": 10
+            },
+            {
+                "steps": 2036,
+                "runtime": 0.0034470558166503906,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 77,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003506183624267578,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 78,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003587007522583008,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 79,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034911632537841797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 80,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003509998321533203,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 81,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036077499389648438,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 82,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036149024963378906,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 83,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035369396209716797,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 84,
+                "difficulty": 10
+            },
+            {
+                "steps": 1329,
+                "runtime": 0.002228975296020508,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 85,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003512144088745117,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 86,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003542184829711914,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 87,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003450155258178711,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 88,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0034940242767333984,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 89,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.003503084182739258,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 90,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035858154296875,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 91,
+                "difficulty": 10
+            },
+            {
+                "steps": 769,
+                "runtime": 0.0013680458068847656,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 92,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036411285400390625,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 93,
+                "difficulty": 10
+            },
+            {
+                "steps": 1195,
+                "runtime": 0.002029895782470703,
+                "path_found": true,
+                "max_steps_reached": false,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 94,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035500526428222656,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 95,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0036530494689941406,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 96,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035419464111328125,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 97,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035178661346435547,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 98,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035619735717773438,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 99,
+                "difficulty": 10
+            },
+            {
+                "steps": 2048,
+                "runtime": 0.0035529136657714844,
+                "path_found": false,
+                "max_steps_reached": true,
+                "total_cost": null,
+                "nodes_expanded": null,
+                "run_number": 100,
+                "difficulty": 10
+            }
+        ],
+        "summary": {
+            "total_successful_runs": 100,
+            "grid_generation_failures": 0,
+            "average_steps": 1939.9,
+            "average_runtime": 0.0033460569381713865,
+            "success_rate": 0.14
+        }
+    }
+}

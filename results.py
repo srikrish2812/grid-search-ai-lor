@@ -373,14 +373,145 @@ def run_experiments_random():
 
     return results
 
+def run_experiments():
+    """
+    Run experiments for all agents (A* with both heuristics, UCS, and Random) 
+    using the same grid configurations
+    """
+    # Configuration
+    grid_size = (32, 32)
+    difficulties = range(0, 91, 10)
+    runs_per_difficulty = 100
+    results = {
+        "astar_euclidean": {},
+        "astar_octile": {},
+        "ucs": {},
+        "random": {}
+    }
+
+    # Create results directories if they don't exist
+    for agent in ["astar", "ucs", "random"]:
+        results_dir = f"./results/{agent}"
+        if not os.path.exists(results_dir):
+            os.makedirs(results_dir)
+
+    for difficulty in difficulties:
+        print(f"\n{'='*50}")
+        print(f"Testing difficulty level: {difficulty}")
+        print(f"{'='*50}")
+
+        difficulty_results = {
+            "astar_euclidean": [],
+            "astar_octile": [],
+            "ucs": [],
+            "random": []
+        }
+        successful_runs = 0
+        grid_generation_failures = 0
+
+        while successful_runs < runs_per_difficulty:
+            try:
+                # Adjust max_attempts based on difficulty
+                max_attempts = 1000 if difficulty >= 70 else 500
+
+                # Find a solvable grid - will be used for all agents
+                grid, initial_node, goal_node = find_solvable_grid(
+                    grid_size, 
+                    difficulty,
+                    max_attempts
+                )
+
+                if grid is None:
+                    grid_generation_failures += 1
+                    print(f"Failed to generate solvable grid after {max_attempts} attempts")
+                    if grid_generation_failures >= 5:
+                        print(f"Too many failures at difficulty {difficulty}. Moving to next difficulty.")
+                        break
+                    continue
+
+                # Test all agents with the same grid configuration
+                # A* with Euclidean distance
+                run_results_euclidean = test_astar_agent(grid, initial_node, goal_node, grid_size, "euclidean")
+                run_results_euclidean.update({
+                    "run_number": successful_runs + 1,
+                    "difficulty": difficulty
+                })
+                difficulty_results["astar_euclidean"].append(run_results_euclidean)
+
+                # A* with Octile distance
+                run_results_octile = test_astar_agent(grid, initial_node, goal_node, grid_size, "octile")
+                run_results_octile.update({
+                    "run_number": successful_runs + 1,
+                    "difficulty": difficulty
+                })
+                difficulty_results["astar_octile"].append(run_results_octile)
+
+                # UCS agent
+                run_results_ucs = test_ucs_agent(grid, initial_node, goal_node, grid_size)
+                run_results_ucs.update({
+                    "run_number": successful_runs + 1,
+                    "difficulty": difficulty
+                })
+                difficulty_results["ucs"].append(run_results_ucs)
+
+                # Random agent
+                run_results_random = test_random_agent(grid, initial_node, goal_node, grid_size)
+                run_results_random.update({
+                    "run_number": successful_runs + 1,
+                    "difficulty": difficulty
+                })
+                difficulty_results["random"].append(run_results_random)
+
+                successful_runs += 1
+
+                if successful_runs % 10 == 0:
+                    print(f"Completed {successful_runs}/{runs_per_difficulty} runs")
+
+            except Exception as e:
+                print(f"Error during run: {str(e)}")
+                continue
+
+        # Store results for each agent
+        for agent_type, agent_results in difficulty_results.items():
+            base_agent = agent_type.split('_')[0]  # splits astar_euclidean to get astar
+            results[agent_type][f"difficulty_{difficulty}"] = {
+                "runs": agent_results,
+                "summary": {
+                    "total_successful_runs": successful_runs,
+                    "grid_generation_failures": grid_generation_failures,
+                    "average_steps": np.mean([r["steps"] for r in agent_results]) if agent_results else 0,
+                    "average_runtime": np.mean([r["runtime"] for r in agent_results]) if agent_results else 0,
+                    "success_rate": np.mean([r["path_found"] for r in agent_results]) if agent_results else 0
+                }
+            }
+
+            # Add additional metrics for A* and UCS
+            if agent_type.startswith('astar') or agent_type == 'ucs':
+                results[agent_type][f"difficulty_{difficulty}"]["summary"].update({
+                    "average_total_cost": np.mean([r["total_cost"] for r in agent_results]) if agent_results else 0,
+                    "average_nodes_expanded": np.mean([r["nodes_expanded"] for r in agent_results]) if agent_results else 0
+                })
+
+            # Save intermediate results
+            results_dir = f"./results/{base_agent}"
+            filename = f'{agent_type}_results_difficulty_{difficulty}.json'
+            with open(os.path.join(results_dir, filename), 'w') as f:
+                json.dump({f"difficulty_{difficulty}": results[agent_type][f"difficulty_{difficulty}"]}, f, indent=4)
+
+    # Save final results for each agent
+    for agent_type in results:
+        base_agent = agent_type.split('_')[0]
+        results_dir = f"./results/{base_agent}"
+        filename = f'{agent_type}_results_final.json'
+        with open(os.path.join(results_dir, filename), 'w') as f:
+            json.dump(results[agent_type], f, indent=4)
+
+    return results
+
 if __name__ == "__main__":
     try:
-        # print("Starting Random Agent experiments")
-        # results = run_experiments_random()
-        # print("Starting Uniform Cost Search Agent experiments")
-        # results = run_experiments_ucs()
-        print("Statring A Star Agent expeirments...")
-        results = run_experiments_astar()
+        print("Starting experiments for all agents...")
+        results = run_experiments()
         print("\nExperiments completed successfully!")
         print("Results have been saved to the 'results' folder")
     except Exception as e:

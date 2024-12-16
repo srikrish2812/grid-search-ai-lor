@@ -1,0 +1,14 @@
+{
+    "difficulty_70": {
+        "runs": [],
+        "summary": {
+            "total_successful_runs": 0,
+            "grid_generation_failures": 5,
+            "average_steps": 0,
+            "average_runtime": 0,
+            "success_rate": 0,
+            "average_total_cost": 0,
+            "average_nodes_expanded": 0
+        }
+    }
+}
