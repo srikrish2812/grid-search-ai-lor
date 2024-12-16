@@ -45,19 +45,19 @@ def test_ucs_agent(grid, initial_node, goal_node, grid_size):
         "steps": len(path) if path else 0,
         "runtime": runtime,
         "path_found": path is not None,
-        "max_steps_reached": False,  # Not applicable for UCS Agent
+        "max_steps_reached": False,  # is not applicable for UCS Agent
         "total_cost": total_cost,
         "nodes_expanded": nodes_expanded
     }
 
 def run_experiments_ucs():
-    # Configuration
+    # problem settings
     grid_size = (32, 32)
     difficulties = range(0, 91, 10)
     runs_per_difficulty = 100
     results = {}
     
-    # Create results directory if it doesn't exist
+    # creating the required directories
     results_dir = "./results/ucs"
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
@@ -73,10 +73,10 @@ def run_experiments_ucs():
         
         while successful_runs < runs_per_difficulty:
             try:
-                # Adjust max_attempts based on difficulty
+                # setting max_attempts based on difficulty level to find a solution
                 max_attempts = 1000 if difficulty >= 70 else 500
                 
-                # Find a solvable grid
+                # getting the solvable grid setting
                 grid, initial_node, goal_node = find_solvable_grid(
                     grid_size, 
                     difficulty,
@@ -91,10 +91,10 @@ def run_experiments_ucs():
                         break
                     continue
                 
-                # Test UCS agent
+                # running the ucs agent
                 run_results = test_ucs_agent(grid, initial_node, goal_node, grid_size)
                 
-                # Add additional information
+                # adding additional information for metrics and plots
                 run_results.update({
                     "run_number": successful_runs + 1,
                     "difficulty": difficulty
@@ -123,11 +123,11 @@ def run_experiments_ucs():
             }
         }
         
-        # Save intermediate results
+        # saving intermediate results
         with open(os.path.join(results_dir, f'ucs_agent_results_difficulty_{difficulty}.json'), 'w') as f:
             json.dump({f"difficulty_{difficulty}": results[f"difficulty_{difficulty}"]}, f, indent=4)
             
-    # Save final results
+    # saving final results
     with open(os.path.join(results_dir, 'ucs_agent_results_final.json'), 'w') as f:
         json.dump(results, f, indent=4)
     
@@ -140,7 +140,7 @@ def test_astar_agent(grid, initial_node, goal_node, grid_size, heuristic):
     metrics = TrackMetrics()
     metrics.timer_on()
     
-    # Create A* agent with given heuristic
+    # instantiating A* agent with given heuristic
     if heuristic == "euclidean":
         astar_agent = AStarAgentGrid(euclidean_distance)
     else:
@@ -153,7 +153,7 @@ def test_astar_agent(grid, initial_node, goal_node, grid_size, heuristic):
         "steps": len(path) if path else 0,
         "runtime": runtime,
         "path_found": path is not None,
-        "max_steps_reached": False,  # Not applicable for A* Agent
+        "max_steps_reached": False,  # is not applicable for A* Agent
         "total_cost": total_cost,
         "nodes_expanded": nodes_expanded,
         "heuristic": heuristic
@@ -163,7 +163,7 @@ def run_experiments_astar():
     """
     Run experiments for A* agent with both the heuristics
     """
-    # configuration
+    # grid settings
     grid_size = (32, 32)
     difficulties = range(0, 91, 10)
     runs_per_difficulty = 100
@@ -189,10 +189,10 @@ def run_experiments_astar():
         
         while successful_runs < runs_per_difficulty:
             try:
-                # Adjust max_attempts based on difficulty
+                # setting max_attempts based on difficulty level to find a solution
                 max_attempts = 1000 if difficulty >= 70 else 500
                 
-                # Find a solvable grid
+                # getting the solvable grid setting
                 grid, initial_node, goal_node = find_solvable_grid(
                     grid_size, 
                     difficulty,
@@ -250,10 +250,10 @@ def run_experiments_astar():
                 }
             }
             
-            # Save intermediate results
+            # saving intermediate results
             with open(os.path.join(results_dir, f'astar_{heuristic}_results_difficulty_{difficulty}.json'), 'w') as f:
                 json.dump({f"difficulty_{difficulty}": results[heuristic][f"difficulty_{difficulty}"]}, f, indent=4)
-    # save heuristics results
+    # saving heuristics results
     for heuristic in ['euclidean', 'octile']:
         with open(os.path.join(results_dir, f'astar_{heuristic}_results_final.json'), 'w') as f:
             json.dump(results[heuristic], f, indent=4)
@@ -269,7 +269,7 @@ def test_random_agent(grid, initial_node, goal_node, grid_size):
 
     current_node = initial_node
     path_found = False
-    max_steps = grid_size[0] * grid_size[1] * 2  # Empirical limit
+    max_steps = grid_size[0] * grid_size[1] * 2  # setting an empirical limit
 
     while metrics.steps < max_steps:
         next_node = RandomAgent.select_action_grid(grid, current_node)
@@ -293,13 +293,13 @@ def test_random_agent(grid, initial_node, goal_node, grid_size):
     }
 
 def run_experiments_random():
-    # Configuration
+    # problem settings
     grid_size = (32, 32)
     difficulties = range(0, 91, 10)
     runs_per_difficulty = 100
     results = {}
 
-    # Create results directory if it doesn't exist
+    # creating results directory if it doesn't exist
     results_dir = "./results/random"
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
@@ -315,10 +315,10 @@ def run_experiments_random():
 
         while successful_runs < runs_per_difficulty:
             try:
-                # Adjust max_attempts based on difficulty
+                # setting max_attempts based on difficulty level to find a solution
                 max_attempts = 1000 if difficulty >= 70 else 500
 
-                # Find a solvable grid
+                # finding a solvable grid
                 grid, initial_node, goal_node = find_solvable_grid(
                     grid_size, 
                     difficulty,
@@ -333,10 +333,10 @@ def run_experiments_random():
                         break
                     continue
 
-                # Test random agent
+                # testing with random agent
                 run_results = test_random_agent(grid, initial_node, goal_node, grid_size)
 
-                # Add additional information
+                # Adding additional information for metrics and plots
                 run_results.update({
                     "run_number": successful_runs + 1,
                     "difficulty": difficulty
@@ -363,22 +363,22 @@ def run_experiments_random():
             }
         }
 
-        # Save intermediate results in results folder
+        # Saving intermediate results in results folder
         with open(os.path.join(results_dir, f'random_agent_results_difficulty_{difficulty}.json'), 'w') as f:
             json.dump({f"difficulty_{difficulty}": results[f"difficulty_{difficulty}"]}, f, indent=4)
 
-    # Save final results in results folder
+    # Saving final results in results folder
     with open(os.path.join(results_dir, 'random_agent_results_final.json'), 'w') as f:
         json.dump(results, f, indent=4)
 
     return results
 
-def run_experiments():
+def run_experiments_all():
     """
     Run experiments for all agents (A* with both heuristics, UCS, and Random) 
     using the same grid configurations
     """
-    # Configuration
+    # grid problem settings
     grid_size = (32, 32)
     difficulties = range(0, 91, 10)
     runs_per_difficulty = 100
@@ -389,7 +389,7 @@ def run_experiments():
         "random": {}
     }
 
-    # Create results directories if they don't exist
+    # Creating results directories if they don't exist
     for agent in ["astar", "ucs", "random"]:
         results_dir = f"./results/{agent}"
         if not os.path.exists(results_dir):
@@ -411,10 +411,10 @@ def run_experiments():
 
         while successful_runs < runs_per_difficulty:
             try:
-                # Adjust max_attempts based on difficulty
+                # setting max_attempts based on difficulty level to find a solution
                 max_attempts = 1000 if difficulty >= 70 else 500
 
-                # Find a solvable grid - will be used for all agents
+                # getting a solvable grid - to be be used for all the agents
                 grid, initial_node, goal_node = find_solvable_grid(
                     grid_size, 
                     difficulty,
@@ -429,7 +429,7 @@ def run_experiments():
                         break
                     continue
 
-                # Test all agents with the same grid configuration
+                # Testing all agents with the same grid configuration setting
                 # A* with Euclidean distance
                 run_results_euclidean = test_astar_agent(grid, initial_node, goal_node, grid_size, "euclidean")
                 run_results_euclidean.update({
@@ -492,14 +492,14 @@ def run_experiments():
                     "average_nodes_expanded": np.mean([r["nodes_expanded"] for r in agent_results]) if agent_results else 0
                 })
 
-            # Save intermediate results
+            # Saving intermediate results
             results_dir = f"./results/{base_agent}"
             filename = f'{agent_type}_results_difficulty_{difficulty}.json'
             with open(os.path.join(results_dir, filename), 'w') as f:
                 json.dump({f"difficulty_{difficulty}": results[agent_type][f"difficulty_{difficulty}"]}, f, indent=4)
 
-    # Save final results for each agent
-    for agent_type in results:
+    # Saving final results for each agent
+    for agent_type, _ in results.items():
         base_agent = agent_type.split('_')[0]
         results_dir = f"./results/{base_agent}"
         filename = f'{agent_type}_results_final.json'
@@ -511,7 +511,7 @@ def run_experiments():
 if __name__ == "__main__":
     try:
         print("Starting experiments for all agents...")
-        results = run_experiments()
+        results = run_experiments_all()
         print("\nExperiments completed successfully!")
         print("Results have been saved to the 'results' folder")
     except Exception as e:

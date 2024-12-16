@@ -3,7 +3,7 @@
         "runs": [
             {
                 "steps": 32,
-                "runtime": 0.005841970443725586,
+                "runtime": 0.0056798458099365234,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -13,7 +13,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005840778350830078,
+                "runtime": 0.005650997161865234,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -23,7 +23,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005874156951904297,
+                "runtime": 0.005484104156494141,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -33,7 +33,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005643129348754883,
+                "runtime": 0.005484104156494141,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -43,7 +43,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005742073059082031,
+                "runtime": 0.0055501461029052734,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -53,7 +53,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005795001983642578,
+                "runtime": 0.00574493408203125,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -63,7 +63,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005877017974853516,
+                "runtime": 0.005693912506103516,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -73,7 +73,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005631923675537109,
+                "runtime": 0.005583763122558594,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -83,7 +83,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0060079097747802734,
+                "runtime": 0.00580596923828125,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -93,7 +93,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005896806716918945,
+                "runtime": 0.0055239200592041016,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -103,7 +103,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005663871765136719,
+                "runtime": 0.00551605224609375,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -113,7 +113,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005774974822998047,
+                "runtime": 0.005622148513793945,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -123,7 +123,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005506038665771484,
+                "runtime": 0.00552821159362793,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -133,7 +133,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005948781967163086,
+                "runtime": 0.005604982376098633,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -143,7 +143,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005697011947631836,
+                "runtime": 0.005458354949951172,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -153,7 +153,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005568981170654297,
+                "runtime": 0.0056498050689697266,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -163,7 +163,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0058879852294921875,
+                "runtime": 0.005472421646118164,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -173,7 +173,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005658149719238281,
+                "runtime": 0.005445957183837891,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -183,7 +183,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.00572967529296875,
+                "runtime": 0.00549006462097168,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -193,7 +193,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0057599544525146484,
+                "runtime": 0.00557708740234375,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -203,7 +203,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005867958068847656,
+                "runtime": 0.005444049835205078,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -213,7 +213,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005750179290771484,
+                "runtime": 0.005498170852661133,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -223,7 +223,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005644083023071289,
+                "runtime": 0.005600929260253906,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -233,7 +233,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005747079849243164,
+                "runtime": 0.005445003509521484,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -243,7 +243,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055539608001708984,
+                "runtime": 0.005486011505126953,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -253,7 +253,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005825042724609375,
+                "runtime": 0.005749940872192383,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -263,7 +263,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.006011962890625,
+                "runtime": 0.005594730377197266,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -273,7 +273,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.00580286979675293,
+                "runtime": 0.005825996398925781,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -283,7 +283,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005655765533447266,
+                "runtime": 0.005467891693115234,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -293,7 +293,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055389404296875,
+                "runtime": 0.005475759506225586,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -303,7 +303,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005771160125732422,
+                "runtime": 0.005764961242675781,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -313,7 +313,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.006030082702636719,
+                "runtime": 0.005644083023071289,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -323,7 +323,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055348873138427734,
+                "runtime": 0.005626201629638672,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -333,7 +333,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005558013916015625,
+                "runtime": 0.0058629512786865234,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -343,7 +343,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0057218074798583984,
+                "runtime": 0.005724906921386719,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -353,7 +353,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.00559687614440918,
+                "runtime": 0.005794048309326172,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -363,7 +363,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005530834197998047,
+                "runtime": 0.0057599544525146484,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -373,7 +373,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005796194076538086,
+                "runtime": 0.005760908126831055,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -383,7 +383,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005507946014404297,
+                "runtime": 0.005652904510498047,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -393,7 +393,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0059659481048583984,
+                "runtime": 0.005755901336669922,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -403,7 +403,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005661964416503906,
+                "runtime": 0.0057659149169921875,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -413,7 +413,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0054509639739990234,
+                "runtime": 0.0055828094482421875,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -423,7 +423,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005812883377075195,
+                "runtime": 0.005859851837158203,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -433,7 +433,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005691051483154297,
+                "runtime": 0.0056531429290771484,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -443,7 +443,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005752086639404297,
+                "runtime": 0.00568079948425293,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -453,7 +453,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005567073822021484,
+                "runtime": 0.005735158920288086,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -463,7 +463,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005480051040649414,
+                "runtime": 0.005706071853637695,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -473,7 +473,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005489826202392578,
+                "runtime": 0.005554914474487305,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -483,7 +483,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005530834197998047,
+                "runtime": 0.0058917999267578125,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -493,7 +493,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005557060241699219,
+                "runtime": 0.030855894088745117,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -503,7 +503,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005666017532348633,
+                "runtime": 0.0059278011322021484,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -513,7 +513,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005591869354248047,
+                "runtime": 0.005669832229614258,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -523,7 +523,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005722999572753906,
+                "runtime": 0.005470752716064453,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -533,7 +533,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0057070255279541016,
+                "runtime": 0.0057811737060546875,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -543,7 +543,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005656003952026367,
+                "runtime": 0.005464076995849609,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -553,7 +553,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005697965621948242,
+                "runtime": 0.005487918853759766,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -563,7 +563,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005678892135620117,
+                "runtime": 0.005576372146606445,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -573,7 +573,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005743980407714844,
+                "runtime": 0.005604743957519531,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -583,7 +583,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005686044692993164,
+                "runtime": 0.005506992340087891,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -593,7 +593,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005639314651489258,
+                "runtime": 0.005529880523681641,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -603,7 +603,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005728006362915039,
+                "runtime": 0.005450010299682617,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -613,7 +613,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005791902542114258,
+                "runtime": 0.005468130111694336,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -623,7 +623,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0057489871978759766,
+                "runtime": 0.006005048751831055,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -633,7 +633,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005613088607788086,
+                "runtime": 0.005485057830810547,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -643,7 +643,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005743265151977539,
+                "runtime": 0.005427122116088867,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -653,7 +653,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005686044692993164,
+                "runtime": 0.005883216857910156,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -663,7 +663,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005589008331298828,
+                "runtime": 0.005736112594604492,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -673,7 +673,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055999755859375,
+                "runtime": 0.005710124969482422,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -683,7 +683,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005861043930053711,
+                "runtime": 0.005635976791381836,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -693,7 +693,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005778312683105469,
+                "runtime": 0.00544285774230957,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -703,7 +703,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005673885345458984,
+                "runtime": 0.005597114562988281,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -713,7 +713,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005632877349853516,
+                "runtime": 0.005653858184814453,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -723,7 +723,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005767107009887695,
+                "runtime": 0.005496025085449219,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -733,7 +733,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0056493282318115234,
+                "runtime": 0.005734920501708984,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -743,7 +743,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005702972412109375,
+                "runtime": 0.005660057067871094,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -753,7 +753,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055730342864990234,
+                "runtime": 0.005436897277832031,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -763,7 +763,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005594968795776367,
+                "runtime": 0.00558018684387207,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -773,7 +773,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005452871322631836,
+                "runtime": 0.005713224411010742,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -783,7 +783,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005552053451538086,
+                "runtime": 0.005468130111694336,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -793,7 +793,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005745887756347656,
+                "runtime": 0.005491018295288086,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -803,7 +803,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005782127380371094,
+                "runtime": 0.005669116973876953,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -813,7 +813,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005740165710449219,
+                "runtime": 0.005645751953125,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -823,7 +823,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0054988861083984375,
+                "runtime": 0.005470991134643555,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -833,7 +833,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005441188812255859,
+                "runtime": 0.005666017532348633,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -843,7 +843,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055391788482666016,
+                "runtime": 0.00560307502746582,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -853,7 +853,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0054509639739990234,
+                "runtime": 0.005826711654663086,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -863,7 +863,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.008262157440185547,
+                "runtime": 0.005690813064575195,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -873,7 +873,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0058438777923583984,
+                "runtime": 0.005614280700683594,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -883,7 +883,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005789279937744141,
+                "runtime": 0.0059239864349365234,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -893,7 +893,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005825042724609375,
+                "runtime": 0.0057528018951416016,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -903,7 +903,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005721092224121094,
+                "runtime": 0.006482839584350586,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -913,7 +913,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.00545811653137207,
+                "runtime": 0.005516767501831055,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -923,7 +923,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0058400630950927734,
+                "runtime": 0.00551295280456543,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -933,7 +933,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0054738521575927734,
+                "runtime": 0.005658149719238281,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -943,7 +943,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0055272579193115234,
+                "runtime": 0.005494832992553711,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -953,7 +953,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.0060122013092041016,
+                "runtime": 0.0057790279388427734,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -963,7 +963,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005476713180541992,
+                "runtime": 0.006052970886230469,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -973,7 +973,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005776166915893555,
+                "runtime": 0.005484104156494141,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -983,7 +983,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005907773971557617,
+                "runtime": 0.005944252014160156,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -993,7 +993,7 @@
             },
             {
                 "steps": 32,
-                "runtime": 0.005522966384887695,
+                "runtime": 0.0056209564208984375,
                 "path_found": true,
                 "max_steps_reached": false,
                 "total_cost": 43.84062043356594,
@@ -1006,7 +1006,7 @@
             "total_successful_runs": 100,
             "grid_generation_failures": 0,
             "average_steps": 32.0,
-            "average_runtime": 0.005719153881072998,
+            "average_runtime": 0.0058929347991943356,
             "success_rate": 1.0,
             "average_total_cost": 43.84062043356595,
             "average_nodes_expanded": 1024.0
